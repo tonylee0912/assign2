@@ -9,8 +9,8 @@ PImage treasure;
 PImage fighter;
 PImage bg1;
 PImage bg2;
-PImage start1 ;
 PImage start2 ;
+PImage start1 ;
 PImage end1 ;
 PImage end2 ;
 int aa ;
@@ -49,8 +49,8 @@ void setup(){
   treasure=loadImage("img/treasure.png");
   bg1=loadImage("img/bg1.png");
   bg2=loadImage("img/bg2.png");
-  start1=loadImage("img/start1.png");
-  start2=loadImage("img/start2.png");  
+  start2=loadImage("img/start2.png");
+  start1=loadImage("img/start1.png");  
   end1=loadImage("img/end1.png");
   end2=loadImage("img/end2.png");
 }
